@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,18 +16,23 @@
   <body>
     <header>
       <nav>
-        <a href="/"><span>Web</span>Studio</a>
-        <a href="/">Agencja</a>
-        <a href="portfolio.html"> Portfolio</a>
-        <a href=""> Kontakt</a>
+        <a class="logo link" href="/"><span class="logo-item">Web</span>Studio</a>
+        <a class="nav-item link" href="/">Agencja</a>
+        <a class="link" href="portfolio.html"> Portfolio</a>
+        <a class="link" href=""> Kontakt</a>
       </nav>
-      <a href="mailto:info@example.com"> mail info@example.com</a>
-      <a href="tel:+48111111111"> +48 111 111 111</a>
+
+      <a class="contact-item" href="mailto:info@example.com">
+        mail info@example.com</a
+      >
+      <a class="contact-item" href="tel:+48111111111"> +48 111 111 111</a>
     </header>
     <main>
       <section>
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <ul class="button-list">
+          <button class="button-type" type="button">Zamów usługę</button>
+        </ul>
       </section>
       <div>
         <dl>
@@ -89,8 +94,8 @@
                 height="368"
               />
               <figcaption>
-                <p>John Doe</p>
-                <p>Product Designer</p>
+                <p class="name-teamworker">John Doe</p>
+                <p class="role-name">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -103,8 +108,8 @@
                 height="368"
               />
               <figcaption>
-                <p>John Doe</p>
-                <p>Frontend Developer</p>
+                <p class="name-teamworker">John Doe</p>
+                <p class="role-name">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -117,8 +122,8 @@
                 height="368"
               />
               <figcaption>
-                <p>John Doe</p>
-                <p>Marketing</p>
+                <p class="name-teamworker">John Doe</p>
+                <p class="role-name">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -131,8 +136,8 @@
                 height="368"
               />
               <figcaption>
-                <p>John Doe</p>
-                <p>UI Designer</p>
+                <p class="name-teamworker">John Doe</p>
+                <p class="role-name">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -141,10 +146,13 @@
     </main>
     <footer>
       <address>
-        <span>Web</span>Studio<br />
+        <p class="logo"></a><span class="logo-item">Web</span>Studio</p><br />
         m. Warszawa, Aleje Jerozolimskie 21<br />
-        <a href="mailto:info@example.com"> mail info@example.com</a> <br />
-        <a href="tel:+48111111111"> +48 111 111 111</a>
+        <a class="contact-item" href="mailto:info@example.com">
+          mail info@example.com</a
+        >
+        <br />
+        <a class="contact-item" href="tel:+48111111111"> +48 111 111 111</a>
       </address>
     </footer>
   </body>
