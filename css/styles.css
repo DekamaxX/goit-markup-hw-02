@@ -2,5 +2,5 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .button-list .button-type:focus .button-list .button-type:hover {
-  color: blue;
+  color: rgb(9, 210, 49);
 }
