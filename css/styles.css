@@ -115,13 +115,15 @@ body {
 
 .button-list .button-type:focus,
 .button-list .button-type:hover {
-  background-color: blue;
+  background-color: #2196f3;
   color: white;
   cursor: pointer;
 }
 
 .contact-item:hover,
-.contact-item:focus {
+.contact-item:focus,
+.contact-footer:hover,
+.contact-footer:focus {
   color: #2196f3;
   text-decoration: none;
 }
